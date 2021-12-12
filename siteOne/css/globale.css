@@ -1,0 +1,123 @@
+body
+{
+	background-image: url("../image/wano.png");
+	background-size: 100%;   
+	background-attachment: fixed;
+	background-color: rgb(255, 255, 255, 0.4);
+	background-blend-mode: overlay;
+}
+
+#flex
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 
+{
+	font-size: 65px;
+	color: black;
+	text-align: center;
+	text-shadow: 3px 3px 5px blue;
+	font-family: Algerian, Verdana, Arial black ;
+	border-style: outset;
+	border-width: 10px;
+	border-color: brown;
+}
+
+h2
+{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 40px;
+	text-shadow: 3px 3px 5px blue;
+	font-family: Algerian, Verdana, Arial black ;
+}
+
+body footer p 
+{
+
+	font-size: 24px;
+	font-family: Arial, Juice ITC, sans-cerif;
+	text-align: right;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.foot
+{
+	margin-left: 80%;
+}
+
+.one 
+{
+	display: block;
+	border-style: outset;
+	border-width: 7px;
+	border-color: black;
+	margin: auto;
+
+}
+
+.bordure
+{
+	margin-left: 20%;
+	margin-right: 20%; 
+}
+
+a
+{
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+	font-family: Arial black;
+}
+
+a:hover
+{
+	text-shadow: 1px 1px 5px black;
+}
+
+a:visited
+{
+	color: red;
+}
+
+.retour
+{
+	position: fixed;
+	top :20px;
+	left: 20px;
+	font-size: 15px;
+	font-family: STHupo;
+	text-align: center;
+	border-style: solid;
+	border-width: 5px;
+	box-shadow: 3px 3px 10px blue;
+	border-color: black;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	padding: 10px;
+}
+
+.img1
+{
+	max-width: 70px;
+	position: fixed;
+	top: 100px;
+	right: 10px;
+}
+
+.img2
+{
+	max-width: 70px;
+	position: fixed;
+	top: 100px;
+	right: 100px;
+}
+
+@font-face {
+	font-family: "Monoton";
+	src: url('../Monoton/Monoton-Regular.ttf');
+}

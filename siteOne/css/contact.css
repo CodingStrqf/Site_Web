@@ -1,0 +1,29 @@
+@import url("globale.css");
+
+form
+{
+	display: block;
+	margin-left: 35%;
+	text-align: left;
+}
+
+label
+{
+	font-size: 30px;	
+	font-family: STHupo;
+} 
+
+.conteneur
+{
+	
+}
+
+input:invalid
+{
+	color: red;
+}
+
+input:valid
+{
+	color: green;	         	
+}

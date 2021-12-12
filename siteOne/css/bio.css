@@ -1,0 +1,71 @@
+@import url("globale.css");
+
+
+h1 
+{
+	margin-right: 19%;
+	margin-left: 19%;
+}
+
+table
+{
+	border-spacing: 10px 10px;
+}
+
+thead tr td
+{
+		font-size: 40px;
+		font-weight: bold;
+}
+
+td
+{
+	background-color: rgb(0, 0, 255, 0.4);
+	display: box;
+	position: relative;
+	left: 10px;
+	right: 10px;
+	border:2px solid black;
+	font-family: Elephant, Verdana;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 3px 3px 10px black;
+}
+
+.imgBio
+{
+	max-width: 250px;
+}
+
+
+
+
+
+
+
+@media print {
+
+h1, h2 ,.img1,.img2,.retour,.foot
+{
+	display: none;
+}
+
+table
+{
+	border-spacing: 0px 0px;
+}
+
+thead tr td
+{
+		font-size: 40px;
+		font-weight: bold;
+}
+
+
+
+.imgBio
+{
+	max-width: 250px;
+}
+
+}

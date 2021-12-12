@@ -1,0 +1,244 @@
+@import url("globale.css");
+
+
+/*{
+	display: flex;
+	justify-content: center;
+}*/
+
+/*
+h1 
+{
+	margin-right: 30%;
+	margin-left: 30%;
+}
+
+nav a
+{
+	text-decoration: none;
+	font-size: 22px;
+	font-family: Arial black;
+}
+
+nav
+{
+	display: inline-block;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 3px 3px 10px blue;
+	border-width: 5px;
+	background:linear-gradient(180deg,rgb(0, 0, 0, 0.5),rgb(255, 255, 255, 0.5));
+	text-align: center;
+	padding: 5px;
+	width: 60%;
+	margin-left: 20%;	
+}
+
+.bord
+{
+
+}
+
+div >h3
+{
+	font-size: 22px;
+	font-family: STHupo;
+	text-align: center;
+	border-style: solid;
+	border-width: 5px;
+	box-shadow: 3px 3px 10px blue;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+aside
+{
+	display: block;
+	border-style: solid;
+	border-width: 5px;
+	box-shadow: 3px 3px 10px blue;
+	margin-right: 90%;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;	
+	position: relative;
+	left: 85%;
+	top: -600px;
+	border-radius: 5%;
+}
+
+li a, body div h3 p a 
+{
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+	font-family: Arial black;
+}
+
+a:hover
+{
+	text-shadow: 1px 1px 5px black;
+}
+
+a:visited
+{
+	color: red;
+}
+
+.img1
+{
+	max-width: 70px;
+	position: fixed;
+	top: 100px;
+	right: 10px;
+}
+
+.img2
+{
+	max-width: 70px;
+	position: fixed;
+	top: 100px;
+	right: 100px;
+} */
+
+nav a
+{
+
+	text-decoration: none;
+	font-size: 22px;
+	font-family: Monoton,Arial black;
+	padding-left: 20px;
+}
+
+nav>ul
+{
+
+	list-style-type: none;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 3px 3px 10px blue;
+	border-width: 5px;
+	background:linear-gradient(180deg,rgb(0, 0, 0, 0.5),rgb(255, 255, 255, 0.5));
+	text-align: center;
+	padding: 5px;
+	min-width: 600px;
+	max-height: 30px; 
+
+}
+.li
+{
+	display: inline-block;
+}
+
+ul ul 
+{
+	display: none;
+
+}
+
+ul>li:hover .sous
+{
+	display: block;
+	position: absolute;
+	top: 26%;
+	right: 26% ;	
+	list-style-type: none;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 0px;
+
+	border-bottom-style: solid;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-color: black;
+	box-shadow: 3px 3px 10px blue;
+	border-width: 5px;
+	background:linear-gradient(180deg,rgb(0, 0, 0, 0.5),rgb(255, 255, 255, 0.5));
+}
+
+
+
+.nav
+{
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: black;
+	padding: 5px; 
+	padding-left: 20px;
+}
+
+div >h3
+{
+	font-size: 22px;
+	font-family: STHupo;
+	text-align: center;
+	border-style: solid;
+	border-width: 5px;
+	box-shadow: 3px 3px 10px blue;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+
+}
+
+aside>ul
+{
+
+	border-style: solid;
+	border-width: 5px;
+	box-shadow: 3px 3px 10px blue;
+	margin-right: 90%;
+	padding-left: 50px;
+	padding-bottom: 10px;
+	padding-top: 10px;	
+	position: relative;
+	left: 85%;
+	top: -800px;
+	border-radius: 5%;
+}
+
+.ban
+{
+	position: relative;
+	left: 85%;
+	top: -800px;
+	width: 10%;
+}
+
+h3 ul li 
+{
+	list-style-type: none;
+}
+
+/*li a, body div h3 p a 
+{
+	
+}*/
+
+.disparu
+{
+	display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+	aside 
+	{
+		display: none;
+	}
+
+	.disparu
+	{
+		display: block;
+		border-style: solid;
+		border-width: 5px;
+		box-shadow: 3px 3px 10px blue;
+		margin-right: 25%;
+		margin-left: 25%;
+		padding-left: 50px;
+		padding-bottom: 10px;
+		padding-top: 10px;	
+		border-radius: 5%;
+	}
+}
